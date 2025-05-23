@@ -1,0 +1,99 @@
+/* Certifications.css */
+.certifications-container {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 40px;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .course-section {
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  h3 {
+    color: #495057;
+    margin-bottom: 16px;
+  }
+  
+  .course-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .course-category {
+    background-color: #f8faff;
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid #e1e8f0;
+  }
+  
+  .certifications-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cert-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #eaeaea;
+    padding: 16px;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+  }
+  
+  .cert-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .cert-card h4 {
+    margin: 0 0 8px 0;
+    color: #007bff;
+  }
+  
+  .cert-card p {
+    margin: 4px 0;
+    color: #666;
+  }
+
+  .cert-card a {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+
+  .cert-card a:hover {
+    background-color: #0056b3;
+  }
+
+  strong {
+    color: #333;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .certifications-container {
+      padding: 20px;
+    }
+  
+    .course-wrapper {
+      grid-template-columns: 1fr;
+    }
+  }

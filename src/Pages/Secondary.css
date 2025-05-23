@@ -1,0 +1,63 @@
+/* Secondary.css */
+
+.secondary-container {
+    font-family: Arial, sans-serif;
+    background-color: #eef6fc;
+    padding: 20px;
+  }
+  
+  .secondary-container h1 {
+    color: #1e88e5;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .secondary-container p {
+    color: #555;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .secondary-container .resource-box,
+  .secondary-container .yt-box {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  }
+  
+  .secondary-container h2 {
+    color: #1565c0;
+  }
+  
+  .secondary-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .secondary-container li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .secondary-container a {
+    text-decoration: none;
+    color: #1565c0;
+    font-weight: bold;
+  }
+  
+  .secondary-container a:hover {
+    color: #0d47a1;
+  }
+  
+  /* Icons styling */
+  .secondary-container li::before {
+    content: '📘';
+    margin-right: 8px;
+  }
+  
+  .secondary-container .yt-box li::before {
+    content: '🎥';
+  }
+  

@@ -1,0 +1,114 @@
+/* Tech Courses Page */
+.tech-courses-containor {
+    padding: 80px 20px;
+    text-align: center;
+    background: #f4f7fc;
+    min-height: 100vh;
+    margin-top: 50px;
+}
+
+.tech-courses-containor h2 {
+    font-size: 28px;
+    color: #6a11cb;
+    margin-bottom: 20px;
+}
+
+.courses-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.course-cards {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.course-cards h3 {
+    color: #2575fc;
+    margin-bottom: 10px;
+}
+
+.course-cards p {
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.course-cards:hover {
+    transform: scale(1.05);
+}
+
+.enroll-btn {
+    background-color: #6a11cb;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.enroll-btn:hover {
+    background-color: #2575fc;
+}
+.courses-containor {
+    text-align: center;
+    padding: 20px;
+    background: #f4f7fc;
+    min-height: 100vh;
+  }
+  
+  h2 {
+    color: #6a11cb;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .courses-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .course-cards {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .course-cards h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .course-cards p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .enroll-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #6a11cb;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+  }
+  
+  .enroll-btn:hover {
+    background-color: #2575fc;
+  }
+  

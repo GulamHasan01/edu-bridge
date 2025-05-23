@@ -1,0 +1,80 @@
+/* Primary.css */
+
+.profile-page {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  padding: 20px;
+}
+
+.profile-header {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.overview {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.overview-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  width: 300px;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.profile-card, .performance-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  flex: 1;
+}
+
+h2, h3 {
+  color: #007bff;
+}
+
+p {
+  color: #555;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.edit-btn {
+  float: right;
+  background-color: #28a745;
+}
+
+.edit-btn:hover {
+  background-color: #218838;
+}
+
+.know-more-btn {
+  background-color: #ffc107;
+}
+
+.know-more-btn:hover {
+  background-color: #e0a800;
+}

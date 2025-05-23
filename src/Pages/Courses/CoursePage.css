@@ -1,0 +1,21 @@
+.course-page {
+    text-align: center;
+    padding: 20px;
+    height: 90vh;
+  }
+  
+  .course-page h2 {
+    color: #6a11cb;
+  }
+  
+  .course-page p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+ 
+  
+  .course-page button:hover {
+    background-color: #2575fc;
+  }
+  

@@ -1,0 +1,14 @@
+/* Domain.css */
+.domain-container {
+    padding: 20px;
+}
+
+.domain-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.domain-content {
+    font-size: 16px;
+    color: #666;
+}

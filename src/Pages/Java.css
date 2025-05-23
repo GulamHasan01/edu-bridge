@@ -1,0 +1,65 @@
+.java-container {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    padding: 40px;
+    margin: 20px auto;
+    border-radius: 12px;
+    max-width: 900px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .java-container h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+  }
+  
+  .java-container p {
+    color: #34495e;
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  .resource-box, .yt-box {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 24px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  }
+  
+  .resource-box h2, .yt-box h2 {
+    margin-top: 0;
+    color: #007bff;
+  }
+  
+  .resource-box ul, .yt-box ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+  }
+  
+  .resource-box li, .yt-box li {
+    background-color: #e9f5ff;
+    padding: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .resource-box li:hover, .yt-box li:hover {
+    background-color: #d0ebff;
+    transform: scale(1.02);
+  }
+  
+  .resource-box a, .yt-box a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .resource-box a:hover, .yt-box a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,23 @@
+.about-container {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8F9FA;
+    color: #2d3436;
+    text-align: center;
+}
+
+.about-section {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
