@@ -145,9 +145,10 @@ Access APIs at http://localhost/edubridge/server/api/
 🧑‍💻 Author
 Gulam Hasan
 Java Developer | Full-Stack Enthusiast
-🔗 Portfolio
-💼  LinkedIn
-💻 GitHub
+📧 [ghulamhasan665@gmail.com](mailto:ghulamhasan665@gmail.com)  
+🔗 [Portfolio](https://your-portfolio-link.com)  
+💼 [LinkedIn](https://linkedin.com/in/gulam-hasan-80751a330)  
+💻 [GitHub](https://github.com/GulamHasan01)
 
 ⭐ Show Your Support
 If you like this project:
